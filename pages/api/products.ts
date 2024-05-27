@@ -4,58 +4,67 @@ export default function handler(req, res) {
   res.status(200).json({
       "products": [
         {
-          "id": 1,
+          "id": 31,
           "name": "Coca-Cola",
           "price": 1.50,
-          "quantity": 10
+          "quantity": 10,
+          "img": "/img/coke.webp"
         },
         {
-          "id": 2,
+          "id": 32,
           "name": "Pepsi",
           "price": 1.40,
-          "quantity": 12
+          "quantity": 12,
+          "img": "/img/pepsi.webp"
         },
         {
-          "id": 3,
+          "id": 33,
           "name": "Water",
           "price": 1.00,
-          "quantity": 15
+          "quantity": 15,
+          "img": "/img/water.webp"
         },
         {
-          "id": 4,
+          "id": 44,
           "name": "Chocolate Bar",
           "price": 1.80,
-          "quantity": 7
+          "quantity": 7,
+          "img": "/img/chocolate.webp"
         },
         {
-          "id": 5,
+          "id": 45,
           "name": "Chips",
           "price": 2.00,
-          "quantity": 9
+          "quantity": 9,
+          "img": "/img/chips.webp"
         },
         {
-          "id": 6,
+          "id": 46,
           "name": "Gum",
           "price": 0.70,
-          "quantity": 13
+          "quantity": 13,
+          "img": "/img/gum.webp"
         },
         {
-          "id": 7,
+          "id": 57,
           "name": "Cookies",
           "price": 1.20,
-          "quantity": 11
+          "quantity": 11,
+          "img": "/img/cookies.webp"
         },
         {
-          "id": 8,
+          "id": 58,
           "name": "Juice",
           "price": 1.30,
-          "quantity": 8
+          "quantity": 8,
+          "img": "/img/juice.webp"
         },
         {
-          "id": 9,
+          "id": 59,
           "name": "Sandwich",
           "price": 2.50,
-          "quantity": 5
+          "quantity": 5,
+          "img": "/img/sandwich.webp"
         }
       ]
   });

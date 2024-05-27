@@ -1,0 +1,20 @@
+.product {
+    @apply flex flex-col mt-4;
+}
+
+.label {
+    @apply flex;
+}
+
+.productId {
+    @apply flex justify-center px-1;
+    background: #fff;
+    color: #4B4B4B;
+    font-weight: bold;
+}
+
+.productPrice {
+    @apply flex justify-center w-full;
+    background: #000;
+    color: #fff;
+}
